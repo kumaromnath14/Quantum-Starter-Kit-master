@@ -26,10 +26,10 @@ public class CalcStepsDefs {
 	@When("add \"(.+)\" to \"(.+)\"")
 	public void addInto(long l1, long l2) {
 
-		new QAFExtendedWebElement("name="+String.valueOf(l1)).click();
-		new QAFExtendedWebElement("btn.plus").click();
-		new QAFExtendedWebElement("name="+String.valueOf(l2)).click();;
-		new QAFExtendedWebElement("btn.equal").click();;
+//		new QAFExtendedWebElement("name="+String.valueOf(l1)).click();
+//		new QAFExtendedWebElement("btn.plus").click();
+//		new QAFExtendedWebElement("name="+String.valueOf(l2)).click();;
+//		new QAFExtendedWebElement("btn.equal").click();;
 		
 	}
 
